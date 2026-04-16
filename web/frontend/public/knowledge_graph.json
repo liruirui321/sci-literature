@@ -1,0 +1,2030 @@
+{
+  "nodes": [
+    {
+      "id": "paper_zahavi2026_bacterials",
+      "type": "paper",
+      "title": "Bacterial SNPs in the human gut microbiome associate with host BMI",
+      "year": null
+    },
+    {
+      "id": "author_479120f7",
+      "type": "author",
+      "name": "Liron Zahavi"
+    },
+    {
+      "id": "method_23d13b7d",
+      "type": "method",
+      "name": "computational"
+    },
+    {
+      "id": "technique_9930ddf2",
+      "type": "technique",
+      "name": "Metagenome-wide association study (MWAS) framework"
+    },
+    {
+      "id": "platform_5762f2b3",
+      "type": "platform",
+      "name": "not reported"
+    },
+    {
+      "id": "finding_zahavi2026_bacterials_0",
+      "type": "finding",
+      "content": "Discovered 1,358 statistically significant associations between bacterial SNPs and host BMI (Bonferroni-corrected P < 0.05), distilling to 40 independent associations after clumping"
+    },
+    {
+      "id": "finding_zahavi2026_bacterials_1",
+      "type": "finding",
+      "content": "BMI-associated SNPs found in 27 bacterial species, with 12 showing no association by standard relative abundance analysis"
+    },
+    {
+      "id": "finding_zahavi2026_bacterials_2",
+      "type": "finding",
+      "content": "17 associations replicated in a geographically independent cohort"
+    },
+    {
+      "id": "finding_zahavi2026_bacterials_3",
+      "type": "finding",
+      "content": "Most associations were unexplained by diet, medications, or physical exercise"
+    },
+    {
+      "id": "finding_zahavi2026_bacterials_4",
+      "type": "finding",
+      "content": "Revealed BMI association of SNP in inflammatory pathway of Bilophila wadsworthia and SNPs in energy metabolism functions in Faecalibacterium prausnitzii"
+    },
+    {
+      "id": "limitation_zahavi2026_bacterials_0",
+      "type": "limitation",
+      "content": "Only examined associations with BMI as primary phenotype"
+    },
+    {
+      "id": "limitation_zahavi2026_bacterials_1",
+      "type": "limitation",
+      "content": "Correlation threshold of 0.3 for clumping may affect independence of findings"
+    },
+    {
+      "id": "limitation_zahavi2026_bacterials_2",
+      "type": "limitation",
+      "content": "Covariates limited to age, sex, and species relative abundance"
+    },
+    {
+      "id": "paper_2026_chechiagut",
+      "type": "paper",
+      "title": "Chechi 等 - 2026 - A gut microbiome-kidney-heart axis predictive of future cardiovascular diseases_副本",
+      "year": null
+    },
+    {
+      "id": "method_f7befc67",
+      "type": "method",
+      "name": "hybrid"
+    },
+    {
+      "id": "technique_754534f8",
+      "type": "technique",
+      "name": "Multi-center observational cohort study investigat"
+    },
+    {
+      "id": "platform_e23bf95b",
+      "type": "platform",
+      "name": "not specified in truncated text"
+    },
+    {
+      "id": "finding_2026_chechiagut_0",
+      "type": "finding",
+      "content": "Gut microbiome-kidney-heart axis predicts future cardiovascular diseases"
+    },
+    {
+      "id": "finding_2026_chechiagut_1",
+      "type": "finding",
+      "content": "Multi-omics integration reveals interconnected pathways between gut microbiota, kidney function, and cardiovascular outcomes"
+    },
+    {
+      "id": "finding_2026_chechiagut_2",
+      "type": "finding",
+      "content": "Microbiome-based predictive models for cardiovascular disease risk stratification"
+    },
+    {
+      "id": "limitation_2026_chechiagut_0",
+      "type": "limitation",
+      "content": "Causality cannot be established from observational data"
+    },
+    {
+      "id": "limitation_2026_chechiagut_1",
+      "type": "limitation",
+      "content": "Potential confounding by diet and medication use affecting microbiome composition"
+    },
+    {
+      "id": "limitation_2026_chechiagut_2",
+      "type": "limitation",
+      "content": "Generalizability across different populations and ethnicities requires further validation"
+    },
+    {
+      "id": "paper_2026_referencef",
+      "type": "paper",
+      "title": "Reference-free Structural Variant Detection in Microbiomes via Long-read Coassembly Graphs",
+      "year": null
+    },
+    {
+      "id": "technique_48226eac",
+      "type": "technique",
+      "name": "Development of rhea, a reference-free structural v"
+    },
+    {
+      "id": "platform_bbda7563",
+      "type": "platform",
+      "name": "Long-read sequencing (Oxford Nanopore or PacBio)"
+    },
+    {
+      "id": "finding_2026_referencef_0",
+      "type": "finding",
+      "content": "rhea outperforms existing methods for SV and horizontal gene transfer (HGT) detection"
+    },
+    {
+      "id": "finding_2026_referencef_1",
+      "type": "finding",
+      "content": "The method remains effective even when simulated reads diverge from reference genomes"
+    },
+    {
+      "id": "finding_2026_referencef_2",
+      "type": "finding",
+      "content": "Increased strain diversity does not compromise detection accuracy"
+    },
+    {
+      "id": "finding_2026_referencef_3",
+      "type": "finding",
+      "content": "Specific sequence alterations detected across environmental and fermented food microbiomes"
+    },
+    {
+      "id": "limitation_2026_referencef_0",
+      "type": "limitation",
+      "content": "Limited details on sample size and sequencing specifics"
+    },
+    {
+      "id": "limitation_2026_referencef_1",
+      "type": "limitation",
+      "content": "Generalizability to other microbiome types not fully explored"
+    },
+    {
+      "id": "paper_shen2024_mappingthe",
+      "type": "paper",
+      "title": "Mapping the gut microbial structural variations in healthy aging within the Chinese population",
+      "year": 2024
+    },
+    {
+      "id": "author_f74045ec",
+      "type": "author",
+      "name": "Luqi Shen"
+    },
+    {
+      "id": "technique_abc77cab",
+      "type": "technique",
+      "name": "Shotgun metagenomic sequencing combined with compu"
+    },
+    {
+      "id": "platform_86af2531",
+      "type": "platform",
+      "name": "shotgun metagenomic sequencing (specific platform not specified)"
+    },
+    {
+      "id": "finding_shen2024_mappingthe_0",
+      "type": "finding",
+      "content": "10,367 microbial structural variations (SVs) in 60 gut microbial species were identified from Chinese populations"
+    },
+    {
+      "id": "finding_shen2024_mappingthe_1",
+      "type": "finding",
+      "content": "There is a trend of copy number loss in age-related SVs during the human aging process, with 35 core SVs consistently detected"
+    },
+    {
+      "id": "finding_shen2024_mappingthe_2",
+      "type": "finding",
+      "content": "Eight specific microbial SVs can distinguish healthy from unhealthy aging, independent of age"
+    },
+    {
+      "id": "finding_shen2024_mappingthe_3",
+      "type": "finding",
+      "content": "A 3-kbp deletion SV of Bifidobacterium pseudocatenulatum, encoding plant polysaccharide degradation, is regulated by plant-based diet and contributes to healthy aging through bile acid metabolism"
+    },
+    {
+      "id": "finding_shen2024_mappingthe_4",
+      "type": "finding",
+      "content": "Microbial SVs harboring genes in methionine-homocysteine metabolism pathway are linked to chronic kidney disease (CKD)"
+    },
+    {
+      "id": "limitation_shen2024_mappingthe_0",
+      "type": "limitation",
+      "content": "Study focused exclusively on Chinese population, limiting generalizability to other ethnic groups"
+    },
+    {
+      "id": "limitation_shen2024_mappingthe_1",
+      "type": "limitation",
+      "content": "Cross-sectional design with limited longitudinal follow-up (only 615 participants followed up for 3 years)"
+    },
+    {
+      "id": "limitation_shen2024_mappingthe_2",
+      "type": "limitation",
+      "content": "Functional validation of identified SVs and their mechanistic links to healthy aging was not performed"
+    },
+    {
+      "id": "paper_administra2026_",
+      "type": "paper",
+      "title": "56744537",
+      "year": null
+    },
+    {
+      "id": "author_7b7bc251",
+      "type": "author",
+      "name": "Administrator"
+    },
+    {
+      "id": "technique_948fa23d",
+      "type": "technique",
+      "name": "Ultra-low coverage human genome imputation from sk"
+    },
+    {
+      "id": "platform_bc224432",
+      "type": "platform",
+      "name": "shotgun metagenomics (Illumina)"
+    },
+    {
+      "id": "finding_administra2026__0",
+      "type": "finding",
+      "content": "Geography explains more microbiome variation than skin type in the human skin microbiome"
+    },
+    {
+      "id": "finding_administra2026__1",
+      "type": "finding",
+      "content": "Host genetics contributes previously uncharacterized structure to the skin microbiome, exemplified by distinct profiles in Chinese individuals"
+    },
+    {
+      "id": "finding_administra2026__2",
+      "type": "finding",
+      "content": "Genome-wide association analysis identified 107 SNPs linked to 22 microbial taxa, including phages and plasmids, implicating host genes in skin structure, immunity, and lipid metabolism"
+    },
+    {
+      "id": "finding_administra2026__3",
+      "type": "finding",
+      "content": "Cutibacterium acnes and its phages exhibit geographic divergence and phage-host co-adaptation"
+    },
+    {
+      "id": "finding_administra2026__4",
+      "type": "finding",
+      "content": "Host-infecting viruses, particularly papillomaviruses, are associated with elevated microbial diversity and immune-modulatory functions"
+    },
+    {
+      "id": "limitation_administra2026__0",
+      "type": "limitation",
+      "content": "Host DNA contamination in skin samples makes shotgun metagenomics challenging"
+    },
+    {
+      "id": "limitation_administra2026__1",
+      "type": "limitation",
+      "content": "Sample size limited to 327 individuals across 5 countries may limit generalizability"
+    },
+    {
+      "id": "limitation_administra2026__2",
+      "type": "limitation",
+      "content": "Distinguishing viruses and plasmids from host genomes remains challenging with current classifiers"
+    },
+    {
+      "id": "paper_2026_microbiome",
+      "type": "paper",
+      "title": "Microbiome-wide PheWAS links gut microbial SNVs to human health and exposures",
+      "year": null
+    },
+    {
+      "id": "technique_19eb91c6",
+      "type": "technique",
+      "name": "Phenome-wide association study (PheWAS) of 12.7 mi"
+    },
+    {
+      "id": "finding_2026_microbiome_0",
+      "type": "finding",
+      "content": "Identified 37,945 associations with 237 host phenotypes and environmental exposures, including 3,018 associations supported by at least two cohorts for 105 host factors"
+    },
+    {
+      "id": "finding_2026_microbiome_1",
+      "type": "finding",
+      "content": "Found 718 age-associated gut microbial SNVs across multiple cohorts, supporting variation in the gut microbiome as a hallmark of aging"
+    },
+    {
+      "id": "finding_2026_microbiome_2",
+      "type": "finding",
+      "content": "Discovered 25 associations between microbial SNVs and diet in both Dutch and Tanzanian cohorts"
+    },
+    {
+      "id": "finding_2026_microbiome_3",
+      "type": "finding",
+      "content": "Identified SNVs in an α-Melanocyte-stimulating hormone-mimicking clpB gene of Alistipes ihumii associated with host body weight and blood lipid levels"
+    },
+    {
+      "id": "finding_2026_microbiome_4",
+      "type": "finding",
+      "content": "Found that SNVs of the isoleucyl-tRNA synthetase gene of Clostridium phoceensis mediate the beneficial impact of diet quality on host health"
+    },
+    {
+      "id": "limitation_2026_microbiome_0",
+      "type": "limitation",
+      "content": "Limited population diversity despite inclusion of African cohort"
+    },
+    {
+      "id": "limitation_2026_microbiome_1",
+      "type": "limitation",
+      "content": "Cross-sectional nature limits causal inference"
+    },
+    {
+      "id": "limitation_2026_microbiome_2",
+      "type": "limitation",
+      "content": "Batch effects possible across cohorts"
+    },
+    {
+      "id": "paper_zhernakova2026_hostgeneti",
+      "type": "paper",
+      "title": "Host genetic regulation of human gut microbial structural variation",
+      "year": null
+    },
+    {
+      "id": "author_03262175",
+      "type": "author",
+      "name": "Daria V. Zhernakova"
+    },
+    {
+      "id": "technique_f30d167a",
+      "type": "technique",
+      "name": "Meta-analysis of genetic associations between huma"
+    },
+    {
+      "id": "platform_61719b43",
+      "type": "platform",
+      "name": "metagenomic sequencing (specific platform not specified in truncated text)"
+    },
+    {
+      "id": "finding_zhernakova2026_hostgeneti_0",
+      "type": "finding",
+      "content": "Host genetics significantly regulates gut microbial structural variation through genome-wide associations between human genetic variants and bacterial metagenome variations"
+    },
+    {
+      "id": "finding_zhernakova2026_hostgeneti_1",
+      "type": "finding",
+      "content": "ABO and FUT2 genotypes jointly determine presence of a structural variation segment in Faecalibacterium prausnitzii containing an N-acetylgalactosamine (GalNAc) utilization gene cluster"
+    },
+    {
+      "id": "finding_zhernakova2026_hostgeneti_2",
+      "type": "finding",
+      "content": "GalNAc can be used as sole carbohydrate source by F. prausnitzii strains carrying the GalNAc-metabolizing pathway, with functional validation in vitro"
+    },
+    {
+      "id": "finding_zhernakova2026_hostgeneti_3",
+      "type": "finding",
+      "content": "Other ABO-associated species including Collinsella aerofaciens can also utilize GalNAc"
+    },
+    {
+      "id": "finding_zhernakova2026_hostgeneti_4",
+      "type": "finding",
+      "content": "GalNAc utilization genes are associated with host cardiometabolic health, particularly in individuals with mucosal A-antigen"
+    },
+    {
+      "id": "limitation_zhernakova2026_hostgeneti_0",
+      "type": "limitation",
+      "content": "Population-specific: discovery in Dutch cohorts with limited replication in Tanzanian cohort"
+    },
+    {
+      "id": "limitation_zhernakova2026_hostgeneti_1",
+      "type": "limitation",
+      "content": "Cross-sectional design limits causal inference for host-microbiome interactions"
+    },
+    {
+      "id": "limitation_zhernakova2026_hostgeneti_2",
+      "type": "limitation",
+      "content": "Mechanistic details of how ABO/FUT2 genotypes shape intestinal environment remain to be fully elucidated"
+    },
+    {
+      "id": "paper_zeevi2026_structural",
+      "type": "paper",
+      "title": "Structural variation in the gut microbiome associates with host health",
+      "year": null
+    },
+    {
+      "id": "author_76ca033f",
+      "type": "author",
+      "name": "David Zeevi"
+    },
+    {
+      "id": "technique_2ce2e4bb",
+      "type": "technique",
+      "name": "Systematic identification of microbial genomic str"
+    },
+    {
+      "id": "platform_feb05ecb",
+      "type": "platform",
+      "name": "not explicitly reported (presumably Illumina)"
+    },
+    {
+      "id": "finding_zeevi2026_structural_0",
+      "type": "finding",
+      "content": "Structural variants (SVs) are highly prevalent in the human gut microbiome across bacterial phyla and replicate across independent cohorts (76% of SVs replicated in Dutch cohort)"
+    },
+    {
+      "id": "finding_zeevi2026_structural_1",
+      "type": "finding",
+      "content": "SVs are enriched for CRISPR-associated and antibiotic-producing functions but depleted from housekeeping genes, suggesting a role in microbial adaptation"
+    },
+    {
+      "id": "finding_zeevi2026_structural_2",
+      "type": "finding",
+      "content": "124 significant associations were found between SVs and host disease risk factors, with 40 associations replicating in the independent Dutch cohort"
+    },
+    {
+      "id": "finding_zeevi2026_structural_3",
+      "type": "finding",
+      "content": "A genomic region in Anaerostipes hadrus encoding a composite inositol catabolism-butyrate biosynthesis pathway was identified, with presence associated with lower host metabolic disease risk"
+    },
+    {
+      "id": "finding_zeevi2026_structural_4",
+      "type": "finding",
+      "content": "SVs represent a nascent layer of variability in the microbiome associated with microbial adaptation and host health"
+    },
+    {
+      "id": "limitation_zeevi2026_structural_0",
+      "type": "limitation",
+      "content": "Reference database dependency: reliance on 3,953 bacterial genomes may miss novel SVs from uncharacterized species"
+    },
+    {
+      "id": "limitation_zeevi2026_structural_1",
+      "type": "limitation",
+      "content": "Algorithm limitation: ICRA may have reduced sensitivity for very rare or highly divergent strains"
+    },
+    {
+      "id": "limitation_zeevi2026_structural_2",
+      "type": "limitation",
+      "content": "Population specificity: significant SV-disease associations may be specific to particular populations and not universally generalizable"
+    },
+    {
+      "id": "paper_liu2026_gutmicrobi",
+      "type": "paper",
+      "title": "Gut microbial structural variation associates with immune checkpoint inhibitor response",
+      "year": null
+    },
+    {
+      "id": "author_933f8b1f",
+      "type": "author",
+      "name": "Rong Liu"
+    },
+    {
+      "id": "technique_d9e15b1a",
+      "type": "technique",
+      "name": "Metagenome-wide association study analyzing gut mi"
+    },
+    {
+      "id": "finding_liu2026_gutmicrobi_0",
+      "type": "finding",
+      "content": "Microbial genomic structural variants (SVs) in gut bacteria are associated with immune checkpoint inhibitor (ICI) treatment response"
+    },
+    {
+      "id": "finding_liu2026_gutmicrobi_1",
+      "type": "finding",
+      "content": "Associated SVs are located in multiple species including Akkermansia muciniphila, Dorea formicigenerans, and Bacteroides caccae"
+    },
+    {
+      "id": "finding_liu2026_gutmicrobi_2",
+      "type": "finding",
+      "content": "Genes encoding enzymes involved in glucose metabolism are harbored in SV regions associated with ICI response"
+    },
+    {
+      "id": "finding_liu2026_gutmicrobi_3",
+      "type": "finding",
+      "content": "This work identifies a nascent layer of gut microbiome heterogeneity that correlates with host prognosis following ICI treatment"
+    },
+    {
+      "id": "limitation_liu2026_gutmicrobi_0",
+      "type": "limitation",
+      "content": "Full limitations section not visible in truncated text"
+    },
+    {
+      "id": "limitation_liu2026_gutmicrobi_1",
+      "type": "limitation",
+      "content": "Potential confounding factors from different cancer types across cohorts"
+    },
+    {
+      "id": "limitation_liu2026_gutmicrobi_2",
+      "type": "limitation",
+      "content": "Causality cannot be established from association study alone"
+    },
+    {
+      "id": "paper_2026_ruralurban",
+      "type": "paper",
+      "title": "Rural–urban environmental differences shape gut microbiome and metabolome signatures linked to cardiovascular disease risk in sub-Saharan Africa",
+      "year": null
+    },
+    {
+      "id": "technique_ae3683a2",
+      "type": "technique",
+      "name": "Cross-sectional study comparing gut microbiome (16"
+    },
+    {
+      "id": "platform_3bebd38d",
+      "type": "platform",
+      "name": "16s rRNA sequencing (specific platform not specified)"
+    },
+    {
+      "id": "finding_2026_ruralurban_0",
+      "type": "finding",
+      "content": "Rural individuals had significantly higher gut microbial alpha diversity and distinct beta diversity compared to urban residents (Shannon index p = 9.17 x 10^-12; Bray-Curtis PERMANOVA p < 0.001)"
+    },
+    {
+      "id": "finding_2026_ruralurban_1",
+      "type": "finding",
+      "content": "250 out of 1008 microbial taxa differed in abundance between settings, with Succinivibrio and Desulfovibrio urban-enriched and Agathobacter and Faecalibacterium rural-enriched"
+    },
+    {
+      "id": "finding_2026_ruralurban_2",
+      "type": "finding",
+      "content": "Metabolomic profiling revealed distinct setting-specific signatures with prenol lipids, fatty acyls, and carboxylic acids predominant among differentially abundant metabolites"
+    },
+    {
+      "id": "finding_2026_ruralurban_3",
+      "type": "finding",
+      "content": "Vitamin K metabolism was identified as a major biological pathway enriched by differentially abundant metabolites"
+    },
+    {
+      "id": "finding_2026_ruralurban_4",
+      "type": "finding",
+      "content": "Several taxa such as Succinivibrio and Erysipelatoclostridiaceae mediated the association between urban living and elevated blood pressure"
+    },
+    {
+      "id": "limitation_2026_ruralurban_0",
+      "type": "limitation",
+      "content": "Cross-sectional design cannot establish causality between microbiome changes and CVD risk"
+    },
+    {
+      "id": "limitation_2026_ruralurban_1",
+      "type": "limitation",
+      "content": "Study conducted within a single country (Uganda) limiting generalizability to other sub-Saharan African populations"
+    },
+    {
+      "id": "limitation_2026_ruralurban_2",
+      "type": "limitation",
+      "content": "Specific bioinformatics pipeline details, software versions, and database versions not reported"
+    },
+    {
+      "id": "paper_wang2021_characteri",
+      "type": "paper",
+      "title": "Characterization of gut microbial structural variations as determinants of human bile acid metabolism",
+      "year": 2021
+    },
+    {
+      "id": "author_1794e78e",
+      "type": "author",
+      "name": "Daoming Wang"
+    },
+    {
+      "id": "technique_60052fe8",
+      "type": "technique",
+      "name": "Metagenome-wide association study (MWAS) analyzing"
+    },
+    {
+      "id": "platform_be102b20",
+      "type": "platform",
+      "name": "not explicitly reported"
+    },
+    {
+      "id": "finding_wang2021_characteri_0",
+      "type": "finding",
+      "content": "Characterized 8,282 structural variants (SVs) across 55 bacterial species in gut microbiomes of 1,437 individuals"
+    },
+    {
+      "id": "finding_wang2021_characteri_1",
+      "type": "finding",
+      "content": "Identified 809 replicable associations between bacterial SVs and bile acid parameters through metagenome-wide association analysis"
+    },
+    {
+      "id": "finding_wang2021_characteri_2",
+      "type": "finding",
+      "content": "Both SV-based continuous genetic makeup and discrete clusters showed correlations with bile acid metabolism"
+    },
+    {
+      "id": "finding_wang2021_characteri_3",
+      "type": "finding",
+      "content": "SV regulators mediate the effects of lifestyle factors on bile acid metabolism"
+    },
+    {
+      "id": "finding_wang2021_characteri_4",
+      "type": "finding",
+      "content": "SV-based metagenome analysis enables discovery of previously unknown bile acid transformation genes"
+    },
+    {
+      "id": "limitation_wang2021_characteri_0",
+      "type": "limitation",
+      "content": "Observational study design cannot establish causality between microbial SVs and bile acid metabolism"
+    },
+    {
+      "id": "limitation_wang2021_characteri_1",
+      "type": "limitation",
+      "content": "A considerable proportion of BA-related genes are still unknown and not captured by current analysis"
+    },
+    {
+      "id": "limitation_wang2021_characteri_2",
+      "type": "limitation",
+      "content": "Study limited to fasting plasma samples; postprandial BA dynamics not assessed"
+    },
+    {
+      "id": "paper_joshua2026_dissecting",
+      "type": "paper",
+      "title": "Dissecting multi-gene virulence phenotypes with base editing requires consideration of target-independent mutagenesis",
+      "year": null
+    },
+    {
+      "id": "author_8c549045",
+      "type": "author",
+      "name": "Newson  Joshua"
+    },
+    {
+      "id": "method_ac15dd30",
+      "type": "method",
+      "name": "experimental"
+    },
+    {
+      "id": "technique_2fc0f88d",
+      "type": "technique",
+      "name": "CRISPR base editing was employed using temperature"
+    },
+    {
+      "id": "platform_ebe2d81e",
+      "type": "platform",
+      "name": "not specified"
+    },
+    {
+      "id": "finding_joshua2026_dissecting_0",
+      "type": "finding",
+      "content": "Multiplexed base editing can reproducibly achieve simultaneous editing of three target genes and can be iteratively extended to produce complex multi-gene knockouts in Salmonella Typhimurium"
+    },
+    {
+      "id": "finding_joshua2026_dissecting_1",
+      "type": "finding",
+      "content": "A base-edited multi-knockout strain showed reduced virulence in vivo similar to a traditionally constructed recombineering mutant"
+    },
+    {
+      "id": "finding_joshua2026_dissecting_2",
+      "type": "finding",
+      "content": "Off-target cytidine deaminase activity was detected via whole-genome sequencing, producing variable virulence phenotypes in vivo in a clone-dependent manner"
+    },
+    {
+      "id": "finding_joshua2026_dissecting_3",
+      "type": "finding",
+      "content": "Statistical power analysis can predict how many edited mutants are needed to confidently measure fitness functions accounting for off-target mutations"
+    },
+    {
+      "id": "finding_joshua2026_dissecting_4",
+      "type": "finding",
+      "content": "Target-independent mutagenesis confounds accurate discovery of genetic interactions in bacterial pathogens"
+    },
+    {
+      "id": "limitation_joshua2026_dissecting_0",
+      "type": "limitation",
+      "content": "Target-independent cytidine deaminase activity produces off-target mutations in bacterial chromosomes"
+    },
+    {
+      "id": "limitation_joshua2026_dissecting_1",
+      "type": "limitation",
+      "content": "Variable levels of off-target editing lead to clone-dependent virulence phenotypes"
+    },
+    {
+      "id": "limitation_joshua2026_dissecting_2",
+      "type": "limitation",
+      "content": "Off-target mutations may confound accurate discovery of genetic interactions"
+    },
+    {
+      "id": "paper_2026_sclsonline",
+      "type": "paper",
+      "title": "SCLS-2025-0585-online 1..14",
+      "year": null
+    },
+    {
+      "id": "technique_e2685f63",
+      "type": "technique",
+      "name": "Multi-omics study combining metagenomics, metabolo"
+    },
+    {
+      "id": "platform_7469f95e",
+      "type": "platform",
+      "name": "Illumina NovaSeq (implied for deep sequencing)"
+    },
+    {
+      "id": "finding_2026_sclsonline_0",
+      "type": "finding",
+      "content": "Phylogenetic differences in 85% of species were associated with exploratory behavior (FDR<0.05)"
+    },
+    {
+      "id": "finding_2026_sclsonline_1",
+      "type": "finding",
+      "content": "146 million microbial SNVs were associated with 953 plasma metabolites, identifying 34 study-wide significant associations (P<2.9×10^-8)"
+    },
+    {
+      "id": "finding_2026_sclsonline_2",
+      "type": "finding",
+      "content": "4-Anisic acid and D-galacturonate were identified as key metabolites linking microbial SNVs to host cognitive exploration via structural regulation of membrane transporters"
+    },
+    {
+      "id": "finding_2026_sclsonline_3",
+      "type": "finding",
+      "content": "3,548 novel species-level genomes were identified compared to existing sheep databases, from a total of 5,253 species-level MAGs generated"
+    },
+    {
+      "id": "finding_2026_sclsonline_4",
+      "type": "finding",
+      "content": "Microbial genetic variation plays a critical role in modulating host neurocognition through metabolite regulation"
+    },
+    {
+      "id": "limitation_2026_sclsonline_0",
+      "type": "limitation",
+      "content": "Study limited to Merino sheep breed with controlled conditions; findings may not generalize to other species or human populations"
+    },
+    {
+      "id": "limitation_2026_sclsonline_1",
+      "type": "limitation",
+      "content": "Specific sequencing depth and bioinformatics pipeline details not fully reported"
+    },
+    {
+      "id": "limitation_2026_sclsonline_2",
+      "type": "limitation",
+      "content": "Causal mechanisms of SNV-driven metabolite regulation on neurocognition require further experimental validation"
+    },
+    {
+      "id": "paper_2026_baimicrobi",
+      "type": "paper",
+      "title": "Bai 等 - 2025 - Microbial genetic composition regulates host social behavior_副本",
+      "year": null
+    },
+    {
+      "id": "technique_936c3a4a",
+      "type": "technique",
+      "name": "High-throughput screening of a genome-wide single-"
+    },
+    {
+      "id": "finding_2026_baimicrobi_0",
+      "type": "finding",
+      "content": "Screened 3,983 E. coli knockout strains and identified 370 mutant strains that significantly reduced social aggregation behavior in C. elegans"
+    },
+    {
+      "id": "finding_2026_baimicrobi_1",
+      "type": "finding",
+      "content": "Five mutations in the L-tyrosine biosynthesis pathway significantly alter social aggregation behavior of C. elegans via the TGF-β signaling pathway"
+    },
+    {
+      "id": "finding_2026_baimicrobi_2",
+      "type": "finding",
+      "content": "Tyrosine was significantly enriched among differentially abundant metabolites associated with reduced social behavior"
+    },
+    {
+      "id": "finding_2026_baimicrobi_3",
+      "type": "finding",
+      "content": "Decreased tyrosine synthesis in E. coli was identified as crucial for reduced worm aggregation behavior through GO and KEGG pathway analyses"
+    },
+    {
+      "id": "limitation_2026_baimicrobi_0",
+      "type": "limitation",
+      "content": "Model organism limitations: C. elegans is a simplified model that may not fully replicate complex mammalian gut-brain interactions"
+    },
+    {
+      "id": "limitation_2026_baimicrobi_1",
+      "type": "limitation",
+      "content": "Single bacterial species: Study used only E. coli mutants, whereas natural gut microbiota comprises complex communities"
+    },
+    {
+      "id": "limitation_2026_baimicrobi_2",
+      "type": "limitation",
+      "content": "Mechanistic details not fully elucidated: TGF-β pathway involvement identified but detailed molecular mechanisms require further investigation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "author_479120f7",
+      "target": "paper_zahavi2026_bacterials",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_9930ddf2",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "platform_5762f2b3",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "finding_zahavi2026_bacterials_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "finding_zahavi2026_bacterials_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "finding_zahavi2026_bacterials_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "finding_zahavi2026_bacterials_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "finding_zahavi2026_bacterials_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "limitation_zahavi2026_bacterials_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "limitation_zahavi2026_bacterials_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "limitation_zahavi2026_bacterials_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "method_f7befc67",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_f7befc67",
+      "target": "technique_754534f8",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "platform_e23bf95b",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "finding_2026_chechiagut_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "finding_2026_chechiagut_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "finding_2026_chechiagut_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "limitation_2026_chechiagut_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "limitation_2026_chechiagut_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "limitation_2026_chechiagut_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_48226eac",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "platform_bbda7563",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "finding_2026_referencef_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "finding_2026_referencef_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "finding_2026_referencef_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "finding_2026_referencef_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "limitation_2026_referencef_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "limitation_2026_referencef_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_f74045ec",
+      "target": "paper_shen2024_mappingthe",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "method_f7befc67",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_f7befc67",
+      "target": "technique_abc77cab",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "platform_86af2531",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "finding_shen2024_mappingthe_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "finding_shen2024_mappingthe_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "finding_shen2024_mappingthe_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "finding_shen2024_mappingthe_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "finding_shen2024_mappingthe_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "limitation_shen2024_mappingthe_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "limitation_shen2024_mappingthe_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "limitation_shen2024_mappingthe_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_7b7bc251",
+      "target": "paper_administra2026_",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_948fa23d",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "platform_bc224432",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "finding_administra2026__0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "finding_administra2026__1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "finding_administra2026__2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "finding_administra2026__3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "finding_administra2026__4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "limitation_administra2026__0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "limitation_administra2026__1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "limitation_administra2026__2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_19eb91c6",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "platform_5762f2b3",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "finding_2026_microbiome_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "finding_2026_microbiome_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "finding_2026_microbiome_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "finding_2026_microbiome_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "finding_2026_microbiome_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "limitation_2026_microbiome_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "limitation_2026_microbiome_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "limitation_2026_microbiome_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_03262175",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "method_f7befc67",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_f7befc67",
+      "target": "technique_f30d167a",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "platform_61719b43",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "finding_zhernakova2026_hostgeneti_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "finding_zhernakova2026_hostgeneti_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "finding_zhernakova2026_hostgeneti_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "finding_zhernakova2026_hostgeneti_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "finding_zhernakova2026_hostgeneti_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "limitation_zhernakova2026_hostgeneti_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "limitation_zhernakova2026_hostgeneti_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "limitation_zhernakova2026_hostgeneti_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_76ca033f",
+      "target": "paper_zeevi2026_structural",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_2ce2e4bb",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "platform_feb05ecb",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "finding_zeevi2026_structural_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "finding_zeevi2026_structural_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "finding_zeevi2026_structural_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "finding_zeevi2026_structural_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "finding_zeevi2026_structural_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "limitation_zeevi2026_structural_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "limitation_zeevi2026_structural_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "limitation_zeevi2026_structural_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_933f8b1f",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_d9e15b1a",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "platform_5762f2b3",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "finding_liu2026_gutmicrobi_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "finding_liu2026_gutmicrobi_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "finding_liu2026_gutmicrobi_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "finding_liu2026_gutmicrobi_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "limitation_liu2026_gutmicrobi_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "limitation_liu2026_gutmicrobi_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "limitation_liu2026_gutmicrobi_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "method_f7befc67",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_f7befc67",
+      "target": "technique_ae3683a2",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "platform_3bebd38d",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "finding_2026_ruralurban_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "finding_2026_ruralurban_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "finding_2026_ruralurban_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "finding_2026_ruralurban_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "finding_2026_ruralurban_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "limitation_2026_ruralurban_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "limitation_2026_ruralurban_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "limitation_2026_ruralurban_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_1794e78e",
+      "target": "paper_wang2021_characteri",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "method_23d13b7d",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_23d13b7d",
+      "target": "technique_60052fe8",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "platform_be102b20",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "finding_wang2021_characteri_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "finding_wang2021_characteri_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "finding_wang2021_characteri_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "finding_wang2021_characteri_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "finding_wang2021_characteri_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "limitation_wang2021_characteri_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "limitation_wang2021_characteri_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "limitation_wang2021_characteri_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "author_8c549045",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "authored"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "method_ac15dd30",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_ac15dd30",
+      "target": "technique_2fc0f88d",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "platform_ebe2d81e",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "finding_joshua2026_dissecting_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "finding_joshua2026_dissecting_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "finding_joshua2026_dissecting_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "finding_joshua2026_dissecting_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "finding_joshua2026_dissecting_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "limitation_joshua2026_dissecting_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "limitation_joshua2026_dissecting_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "limitation_joshua2026_dissecting_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "method_f7befc67",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_f7befc67",
+      "target": "technique_e2685f63",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "platform_7469f95e",
+      "relation": "uses_platform"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "finding_2026_sclsonline_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "finding_2026_sclsonline_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "finding_2026_sclsonline_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "finding_2026_sclsonline_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "finding_2026_sclsonline_4",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "limitation_2026_sclsonline_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "limitation_2026_sclsonline_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "limitation_2026_sclsonline_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "method_ac15dd30",
+      "relation": "uses_method"
+    },
+    {
+      "source": "method_ac15dd30",
+      "target": "technique_936c3a4a",
+      "relation": "has_technique"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "finding_2026_baimicrobi_0",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "finding_2026_baimicrobi_1",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "finding_2026_baimicrobi_2",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "finding_2026_baimicrobi_3",
+      "relation": "has_finding"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "limitation_2026_baimicrobi_0",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "limitation_2026_baimicrobi_1",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_2026_baimicrobi",
+      "target": "limitation_2026_baimicrobi_2",
+      "relation": "has_limitation"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_chechiagut",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_referencef",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_shen2024_mappingthe",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_administra2026_",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_microbiome",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zahavi2026_bacterials",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_2026_referencef",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_shen2024_mappingthe",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_administra2026_",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_2026_microbiome",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_chechiagut",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_shen2024_mappingthe",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_administra2026_",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_2026_microbiome",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_referencef",
+      "target": "paper_2026_baimicrobi",
+      "relation": "contradicts"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_administra2026_",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_2026_microbiome",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_shen2024_mappingthe",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_2026_microbiome",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_administra2026_",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_zhernakova2026_hostgeneti",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_microbiome",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_zeevi2026_structural",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zhernakova2026_hostgeneti",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_liu2026_gutmicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_zeevi2026_structural",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "paper_2026_ruralurban",
+      "relation": "related"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_liu2026_gutmicrobi",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "paper_wang2021_characteri",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_ruralurban",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "paper_joshua2026_dissecting",
+      "relation": "related"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_wang2021_characteri",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "paper_2026_sclsonline",
+      "relation": "related"
+    },
+    {
+      "source": "paper_joshua2026_dissecting",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    },
+    {
+      "source": "paper_2026_sclsonline",
+      "target": "paper_2026_baimicrobi",
+      "relation": "related"
+    }
+  ]
+}

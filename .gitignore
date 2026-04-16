@@ -34,6 +34,7 @@ nohup.out
 papers.jsonl
 compare_report.md
 knowledge_graph.json
+!web/frontend/public/knowledge_graph.json
 obsidian_notes/
 
 # OpenClaw workspace (user-specific)
@@ -43,3 +44,7 @@ obsidian_notes/
 # Temporary
 temp_analysis.md
 *.tmp
+
+# Web frontend
+web/frontend/node_modules/
+web/frontend/dist/
