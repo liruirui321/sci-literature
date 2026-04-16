@@ -61,7 +61,7 @@ export default function KnowledgeGraph() {
       ) : (
         <div className="flex-1 flex gap-4 min-h-0">
           {/* Graph area */}
-          <div className="flex-1 card p-0 overflow-hidden">
+          <div className="flex-1 bg-surface-800 border border-gray-700/50 rounded-xl overflow-hidden">
             <ForceGraph
               graph={knowledgeGraph}
               visibleTypes={visibleTypes}
