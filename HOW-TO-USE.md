@@ -43,50 +43,6 @@ cp sci-literature/SKILL.md .opencode/skill/sci-literature/
 
 ## For OpenClaw
 
-### Usage
-
-After installation, the skill auto-loads when you ask literature-related questions.
-
-**Direct triggers**:
-```
-> 精读这篇PDF: /path/to/paper.pdf
-> 对比分析这些文献: ./papers.json
-> 帮我做知识图谱
-> 找出研究空白
-> 追踪这个引用链
-> 帮我审计证据
-```
-
-**Workflow**:
-1. Provide paper PDFs or arXiv IDs
-2. Agent applies 12 literature review skills
-3. Structured data extracted → papers.jsonl
-4. Cross-paper analysis generated
-5. Knowledge graph built
-
-### Tool Commands
-
-```bash
-# Extract from PDFs
-python scripts/tool.py extract --folder ./pdfs --output ./results
-
-# Full pipeline
-python scripts/tool.py all --folder ./pdfs --output ./results
-
-# Compare papers
-python scripts/tool.py compare --output ./results
-
-# Build knowledge graph
-python scripts/tool.py build-kg --output ./results
-
-# Ask questions
-python scripts/tool.py ask "研究空白有哪些？" --output ./results
-```
-
----
-
-## For OpenClaw
-
 ### Installation
 
 ```bash
@@ -113,20 +69,54 @@ OpenClaw creates these for literature work:
 └── .learnings/           # Insights
 ```
 
-### Direct Triggers
-
-```
-> analyze this paper: 10.1038/s41586-024-12345-6
-> compare these two: paper1.pdf, paper2.pdf
-> find research gaps in my literature
-> build knowledge graph from papers.jsonl
-> trace this citation: [15]
-```
-
 ### Hook Events
 
 - `agent:bootstrap` → Reminds to apply literature skills
 - `command:new` → Fresh literature session
+
+---
+
+## General Usage
+
+After installation, the skill auto-loads when you ask literature-related questions.
+
+### Direct Triggers
+
+```
+> 精读这篇PDF: /path/to/paper.pdf
+> 对比分析这些文献: ./papers.json
+> 帮我做知识图谱
+> 找出研究空白
+> 追踪这个引用链
+> 帮我审计证据
+```
+
+### Workflow
+
+1. Provide paper PDFs or arXiv IDs
+2. Agent applies 12 literature review skills
+3. Structured data extracted → papers.jsonl
+4. Cross-paper analysis generated
+5. Knowledge graph built
+
+### Tool Commands
+
+```bash
+# Extract from PDFs
+python scripts/tool.py extract --folder ./pdfs --output ./results
+
+# Full pipeline
+python scripts/tool.py all --folder ./pdfs --output ./results
+
+# Compare papers
+python scripts/tool.py compare --output ./results
+
+# Build knowledge graph
+python scripts/tool.py build-kg --output ./results
+
+# Ask questions
+python scripts/tool.py ask "研究空白有哪些？" --output ./results
+```
 
 ---
 

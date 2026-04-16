@@ -60,7 +60,7 @@ The original claim in Primary D may not support what Review A claims.
 Count your citations:
 - How many are primary studies?
 - How many are reviews?
-- Primary ratio should be > 80%
+- Primary ratio should exceed 80% (reviews should be under 20%)
 
 If reviews dominate:
 - You have a citation pollution problem
