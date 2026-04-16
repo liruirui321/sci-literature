@@ -32,6 +32,7 @@ nohup.out
 
 # Literature outputs
 papers.jsonl
+!web/frontend/public/papers.jsonl
 compare_report.md
 knowledge_graph.json
 !web/frontend/public/knowledge_graph.json
