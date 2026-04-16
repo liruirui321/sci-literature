@@ -31,10 +31,10 @@ cd sci-literature
 bash setup.sh
 ```
 
-### For OpenCode / Claude Code
+### For Claude Code / OpenCode
 
 ```bash
-cp -r sci-literature ~/.opencode/skills/sci-literature
+cp -r sci-literature ~/.claude/skills/sci-literature
 ```
 
 ### For OpenClaw

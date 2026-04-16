@@ -1,15 +1,15 @@
 # How to Use Sci-Literature
 
-## For OpenCode / Claude Code
+## For Claude Code / OpenCode
 
 ### Installation
 
 ```bash
-# Copy skill to opencode skills directory
-cp -r sci-literature ~/.opencode/skills/sci-literature
+# Copy skill to skills directory
+cp -r sci-literature ~/.claude/skills/sci-literature
 
 # Or create symlink
-ln -s /path/to/sci-literature ~/.opencode/skills/sci-literature
+ln -s /path/to/sci-literature ~/.claude/skills/sci-literature
 ```
 
 ### Usage
