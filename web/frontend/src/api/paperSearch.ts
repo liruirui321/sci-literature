@@ -93,17 +93,11 @@ async function searchByTitle(title: string): Promise<PaperSearchResult[]> {
 }
 
 /**
- * Try to get PDF URL from Sci-Hub via DOI
+ * Get Sci-Hub URL for a DOI
  */
-export async function getSciHubUrl(doi: string): Promise<string | null> {
-  // Sci-Hub mirrors - try multiple
-  const mirrors = [
-    `https://sci-hub.se/${doi}`,
-    `https://sci-hub.st/${doi}`,
-    `https://sci-hub.ru/${doi}`,
-  ]
-  // Return the first mirror URL - user can try them
-  return mirrors[0]
+export function getSciHubUrl(doi: string): string {
+  // Return primary Sci-Hub mirror
+  return `https://sci-hub.se/${doi}`
 }
 
 /**

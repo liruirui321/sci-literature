@@ -307,7 +307,7 @@ Output ONLY valid JSON.`,
                     )}
                     {r.doi && (
                       <a
-                        href={getSciHubUrl(r.doi) || '#'}
+                        href={getSciHubUrl(r.doi)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-secondary text-xs flex items-center gap-1.5 justify-center"
