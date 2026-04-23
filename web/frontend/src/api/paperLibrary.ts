@@ -138,9 +138,9 @@ export async function getPapersByFolder(folderId: string): Promise<PaperFile[]> 
 export async function addPaper(paper: Omit<PaperFile, 'id' | 'addedAt'>): Promise<PaperFile> {
   const db = await getDB()
   const newPaper: PaperFile = {
-    ...paper,
     id: `paper-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
     addedAt: Date.now(),
+    ...paper,
   }
   await db.add('papers', newPaper)
   return newPaper
