@@ -7,6 +7,7 @@ import Compare from './pages/Compare'
 import Ask from './pages/Ask'
 import Settings from './pages/Settings'
 import Guide from './pages/Guide'
+import PaperFinder from './pages/PaperFinder'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<Dashboard />} />
         <Route path="/paper/:id" element={<PaperDetail />} />
+        <Route path="/finder" element={<PaperFinder />} />
         <Route path="/graph" element={<KnowledgeGraph />} />
         <Route path="/compare" element={<Compare />} />
         <Route path="/ask" element={<Ask />} />

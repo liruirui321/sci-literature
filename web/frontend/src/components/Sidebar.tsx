@@ -7,10 +7,12 @@ import {
   Settings,
   BookOpen,
   HelpCircle,
+  Search,
 } from 'lucide-react'
 
 const links = [
   { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/finder', icon: Search, label: 'Paper Finder' },
   { to: '/graph', icon: Network, label: 'Knowledge Graph' },
   { to: '/compare', icon: GitCompare, label: 'Compare' },
   { to: '/ask', icon: MessageSquare, label: 'Ask' },
