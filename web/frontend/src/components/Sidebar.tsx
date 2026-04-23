@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import {
-  LayoutDashboard,
+  Library as LibraryIcon,
   Network,
   GitCompare,
   MessageSquare,
@@ -11,7 +11,7 @@ import {
 } from 'lucide-react'
 
 const links = [
-  { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
+  { to: '/', icon: LibraryIcon, label: 'Library' },
   { to: '/finder', icon: Search, label: 'Paper Finder' },
   { to: '/graph', icon: Network, label: 'Knowledge Graph' },
   { to: '/compare', icon: GitCompare, label: 'Compare' },

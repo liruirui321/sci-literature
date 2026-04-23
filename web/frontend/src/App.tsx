@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout'
+import Library from './pages/Library'
 import Dashboard from './pages/Dashboard'
 import PaperDetail from './pages/PaperDetail'
 import KnowledgeGraph from './pages/KnowledgeGraph'
@@ -13,7 +14,8 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Library />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/paper/:id" element={<PaperDetail />} />
         <Route path="/finder" element={<PaperFinder />} />
         <Route path="/graph" element={<KnowledgeGraph />} />
