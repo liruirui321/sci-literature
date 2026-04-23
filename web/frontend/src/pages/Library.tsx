@@ -391,7 +391,7 @@ export default function Library() {
               {currentPapers.map(paper => (
                 <PaperCard
                   key={paper.id}
-                  paper={paper}
+                  paper={paper as any}
                   onRemove={handleDeletePaper}
                 />
               ))}

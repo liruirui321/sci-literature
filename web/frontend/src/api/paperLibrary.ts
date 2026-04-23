@@ -1,4 +1,4 @@
-import { openDB, DBSchema, IDBPDatabase } from 'idb'
+import { openDB, IDBPDatabase } from 'idb'
 
 export interface PaperFile {
   id: string
@@ -17,6 +17,7 @@ export interface PaperFile {
   pdfBlob?: Blob
   addedAt: number
   analyzedAt?: number
+  [key: string]: unknown
 }
 
 export interface Folder {
@@ -26,35 +27,19 @@ export interface Folder {
   createdAt: number
 }
 
-interface PaperLibraryDB extends DBSchema {
-  papers: {
-    key: string
-    value: PaperFile
-    indexes: { 'by-folder': string }
-  }
-  folders: {
-    key: string
-    value: Folder
-    indexes: { 'by-parent': string | null }
-  }
-}
-
-let dbInstance: IDBPDatabase<PaperLibraryDB> | null = null
+let dbInstance: IDBPDatabase | null = null
 
 async function getDB() {
   if (dbInstance) return dbInstance
 
-  dbInstance = await openDB<PaperLibraryDB>('paper-library', 1, {
+  dbInstance = await openDB('paper-library', 1, {
     upgrade(db) {
-      // Papers store
       const paperStore = db.createObjectStore('papers', { keyPath: 'id' })
       paperStore.createIndex('by-folder', 'folderId')
 
-      // Folders store
       const folderStore = db.createObjectStore('folders', { keyPath: 'id' })
       folderStore.createIndex('by-parent', 'parentId')
 
-      // Create root folder
       folderStore.add({
         id: 'root',
         name: 'My Library',
