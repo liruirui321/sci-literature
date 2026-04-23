@@ -1,52 +1,73 @@
-import { BookOpen, FileText, Network, GitCompare, MessageSquare, Settings, Upload, Database } from 'lucide-react'
+import { BookOpen, FileText, Network, GitCompare, MessageSquare, Settings, Upload, Database, Library as LibraryIcon, Search } from 'lucide-react'
 
 const sections = [
   {
-    icon: FileText,
-    title: 'Dashboard - Papers Management',
+    icon: LibraryIcon,
+    title: 'Library - Organize Your Papers',
     color: 'text-blue-400',
     steps: [
-      'Click "Load Demo Data" to try with built-in sample papers.',
-      'Or upload your own papers.jsonl file — each line is one JSON paper object with fields like title, authors, method, findings, limitations, keywords, etc.',
-      'Click a paper card to see full details; use the X button to remove a paper.',
+      'Create folders to organize papers by topic (e.g., "Microbiome", "Structural Variation").',
+      'Upload PDF files directly to folders — they are automatically analyzed with LLM and stored in browser IndexedDB.',
+      'Right-click folders to rename, delete, or create subfolders.',
+      'Click "Export ZIP" to download all PDFs and metadata from a folder.',
+      'Click "Build Knowledge Graph" to generate a graph from papers in the current folder.',
+      'All data persists across browser sessions — your library is saved locally.',
     ],
-    format: `Each line in papers.jsonl should be a JSON object:
-{"id":"p1","title":"...","authors":["A","B"],"method":"...","findings":"...","limitations":"...","keywords":["k1","k2"]}`,
+  },
+  {
+    icon: Search,
+    title: 'Paper Finder - Search and Download',
+    color: 'text-green-400',
+    steps: [
+      'Search by DOI (e.g., 10.1038/s41586-024-...) or paper title.',
+      'For Open Access papers: click "Get PDF & Analyze" to auto-download, extract, and add to your library.',
+      'For non-OA papers: click "Sci-Hub" to open in Sci-Hub for manual download.',
+      'Click "Add Metadata" to save paper info without downloading the PDF.',
+      'Requires API key configured in Settings for automatic analysis.',
+    ],
+  },
+  {
+    icon: FileText,
+    title: 'Dashboard - Quick Upload (Legacy)',
+    color: 'text-gray-400',
+    steps: [
+      'Upload PDF files or papers.jsonl for temporary analysis (not saved to Library).',
+      'Click "Load Sample Data" to try with built-in microbiome research papers.',
+      'Papers uploaded here are in-memory only and lost on page refresh.',
+      'For persistent storage, use the Library page instead.',
+    ],
   },
   {
     icon: Network,
     title: 'Knowledge Graph - Visualize Relationships',
     color: 'text-purple-400',
     steps: [
-      'Upload a knowledge_graph.json file (nodes + edges), or click "Build from Papers" to auto-generate one from loaded papers.',
-      'The graph supports nodes of type: paper, author, method, finding, limitation, keyword. Other types (technique, platform) are auto-mapped to method.',
-      'Use the filter panel on the right to show/hide node types by category.',
-      'Click a node to see its details; hover to highlight its connections.',
-      'Drag nodes to rearrange; scroll to zoom in/out.',
+      'Upload a knowledge_graph.json file, or build one from Library/Dashboard papers.',
+      'Supports node types: paper, author, method, finding, limitation, keyword.',
+      'Scroll to zoom, drag background to pan, drag nodes to reposition.',
+      'Click nodes to see details; use filters to show/hide node types.',
+      'Auto-scales for large graphs (>30 nodes).',
     ],
     format: `knowledge_graph.json format:
 {
   "nodes": [
-    {"id":"paper_1","type":"paper","title":"Paper Title"},
-    {"id":"author_1","type":"author","name":"Author Name"},
-    {"id":"finding_1","type":"finding","content":"Key finding..."}
+    {"id":"paper_1","type":"paper","label":"Paper Title"},
+    {"id":"author_1","type":"author","label":"Author Name"}
   ],
   "edges": [
-    {"source":"author_1","target":"paper_1","relation":"authored"},
-    {"source":"paper_1","target":"finding_1","relation":"has_finding"}
+    {"source":"author_1","target":"paper_1","relation":"authored"}
   ]
-}
-Node label is auto-resolved from: label > title > name > content > id`,
+}`,
   },
   {
     icon: GitCompare,
     title: 'Compare - Generate Comparative Analysis',
-    color: 'text-green-400',
+    color: 'text-orange-400',
     steps: [
-      'Load at least 2 papers first from the Dashboard.',
-      'Configure an LLM API key in Settings (supports OpenAI, DeepSeek, MiniMax, Zhipu, Anthropic, or custom).',
-      'Click "Generate Report" to get a comprehensive comparison including methodology, findings, strengths, limitations, and research gaps.',
-      'The report streams in real-time as the LLM generates it.',
+      'Load at least 2 papers from Dashboard or Library.',
+      'Configure an LLM API key in Settings.',
+      'Click "Generate Report" for comprehensive comparison: methodology, findings, strengths, limitations, research gaps.',
+      'Report streams in real-time as LLM generates it.',
     ],
   },
   {
@@ -54,21 +75,21 @@ Node label is auto-resolved from: label > title > name > content > id`,
     title: 'Ask - RAG-Powered Q&A',
     color: 'text-cyan-400',
     steps: [
-      'Load papers and configure an API key first.',
-      'Type a question about your loaded papers — the system automatically finds relevant papers as context.',
-      'The assistant cites specific papers and can answer follow-up questions using chat history.',
-      'Click suggested questions for inspiration, or use "Clear Chat" to start fresh.',
+      'Load papers and configure API key first.',
+      'Ask questions about your papers — system finds relevant context automatically.',
+      'Assistant cites specific papers and maintains chat history for follow-ups.',
+      'Click suggested questions or use "Clear Chat" to start fresh.',
     ],
   },
   {
     icon: Settings,
-    title: 'Settings - API & Backend Configuration',
-    color: 'text-orange-400',
+    title: 'Settings - API Configuration',
+    color: 'text-red-400',
     steps: [
-      'Select an LLM provider and enter your API key (stored locally in browser, never sent to our servers).',
-      'For custom/self-hosted models, set the Base URL and Model name manually.',
-      'Optionally connect to a local FastAPI backend (python backend/main.py) for PDF upload and extraction.',
-      '"Clear All Data" removes all loaded papers, graphs, and chat history from browser memory.',
+      'Select LLM provider: OpenAI, DeepSeek, MiniMax, Zhipu GLM, Anthropic, or custom.',
+      'Enter API key (stored locally in browser, never sent to our servers).',
+      'For custom models, set Base URL and Model name.',
+      '"Clear All Data" removes papers, graphs, and chat from browser memory (does NOT clear Library IndexedDB).',
     ],
   },
 ]
@@ -91,10 +112,11 @@ export default function Guide() {
         <h2 className="text-lg font-semibold text-blue-300 mb-3">Quick Start</h2>
         <ol className="list-decimal list-inside space-y-2 text-sm text-gray-300">
           <li>Go to <strong>Settings</strong> and configure your LLM API key (e.g., OpenAI, DeepSeek).</li>
-          <li>Go to <strong>Dashboard</strong> and upload your <code className="text-blue-400">papers.jsonl</code> file, or click "Load Demo Data".</li>
-          <li>Use <strong>Knowledge Graph</strong> to visualize paper relationships (upload <code className="text-blue-400">knowledge_graph.json</code> or build from papers).</li>
-          <li>Use <strong>Compare</strong> to generate a detailed comparative report of your papers.</li>
-          <li>Use <strong>Ask</strong> to chat with your papers using RAG-powered Q&A.</li>
+          <li>Go to <strong>Library</strong> (home page) and create folders to organize your papers.</li>
+          <li>Upload PDF files to folders — they are auto-analyzed and stored persistently in your browser.</li>
+          <li>Or use <strong>Paper Finder</strong> to search by DOI/title and download papers directly.</li>
+          <li>Click <strong>"Build Knowledge Graph"</strong> in Library to visualize paper relationships.</li>
+          <li>Use <strong>Compare</strong> to generate comparative analysis, or <strong>Ask</strong> to chat with your papers.</li>
         </ol>
       </div>
 
@@ -120,12 +142,14 @@ export default function Guide() {
 
       {/* Data formats reference */}
       <div className="card">
-        <h2 className="text-lg font-semibold text-white mb-3">Data Privacy</h2>
+        <h2 className="text-lg font-semibold text-white mb-3">Data Storage & Privacy</h2>
         <ul className="list-disc list-inside space-y-2 text-sm text-gray-300">
-          <li>All data is processed in your browser — nothing is stored on any server.</li>
-          <li>API keys are saved in localStorage and only sent to your chosen LLM provider.</li>
-          <li>The Knowledge Graph and papers data exist only in browser memory and are lost on page refresh.</li>
-          <li>The optional local backend runs on your own machine for PDF processing.</li>
+          <li><strong>Library papers:</strong> Stored in browser IndexedDB with PDF blobs — persists across sessions, never sent to servers.</li>
+          <li><strong>Dashboard papers:</strong> In-memory only — lost on page refresh.</li>
+          <li><strong>API keys:</strong> Saved in localStorage, only sent to your chosen LLM provider.</li>
+          <li><strong>Knowledge graphs & chat:</strong> In-memory, cleared on refresh.</li>
+          <li>All processing happens in your browser — no data is uploaded to our servers.</li>
+          <li>Export your Library as ZIP anytime to back up PDFs and metadata locally.</li>
         </ul>
       </div>
     </div>
